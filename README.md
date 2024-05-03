@@ -17,7 +17,7 @@ Here are some key points to consider when creating a DFD:
  **Data Store**: A place where data is stored.  
  **Entities**: Sources and sinks of data, such as people, systems, or devices.  
 
-![alt text](image.png)
+![alt text](/public/image.png)
 
 By using a DFD, you can:
 
@@ -48,7 +48,7 @@ UML use case diagrams are ideal for:
 
 ## Use case diagram symbols and notation
 The notation for a use case diagram is pretty straightforward and doesn't involve as many types of symbols as other UML diagrams. You can use this guide to learn how to draw a use case diagram if you need a refresher. Here are all the shapes you will be able to find in Lucidchart:  
-![alt text](image-2.png)  
+![alt text](/public/image-2.png)  
 **Use cases**: Horizontally shaped ovals that represent the different uses that a user might have.  
 **Actors**: Stick figures that represent the people actually employing the use cases.  
 **Associations**: A line between actors and use cases. In complex diagrams, it is important to know which actors are associated with which use cases.  
@@ -64,7 +64,7 @@ A uses relationship from base use case to child use case indicates that an insta
 An include relationship is depicted with a directed arrow having a dotted line. The tip of arrowhead points to the child use case and the parent use case connected at the base of the arrow.
 The stereotype "<<include>>" identifies the relationship as an include relationship.
 ```
-![alt text](image-3.png)
+![alt text](/public/image-3.png)
 
 ```
 Extends
@@ -73,7 +73,7 @@ Indicates that an "Invalid Password" use case may include (subject to specified 
 Depict with a directed arrow having a dotted line. The tip of arrowhead points to the base use case and the child use case is connected at the base of the arrow.
 The stereotype "<<extends>>" identifies as an extend relationship
 ```
-![alt text](image-4.png)
+![alt text](/public/image-4.png)
 
 # Activity Diagram
 
@@ -87,17 +87,17 @@ Activity Diagrams describe how activities are coordinated to provide a service w
 4. Model complex workflows in operations on objects
 5. Model in detail complex activities in a high level activity Diagram
 
-![alt text](image-5.png)
+![alt text](/public/image-5.png)
 
-| Notation Description | UML Notation | Image |
+| Notation Description | UML Notation | /public/Image |
 |----------------------|--------------|-------|
-| Activity | Is used to represent a set of actions | ![alt text](image-12.png) |
-| Action | A task to be performed | ![alt text](image-11.png) |
-| Control Flow | AShows the sequence of execution | ![alt text](image-10.png) |
-| Initial Node | Portrays the beginning of a set of actions or activities | ![alt text](image-9.png) |
-| Activity Final Node | Stop all control flows and object flows in an activity (or action) | ![alt text](image-8.png) |
-| Object Node | Represent an object that is connected to a set of Object Flows | ![alt text](image-7.png) |
-| Decision Node | Represent a test condition to ensure that the control flow or object flow only goes down one path | ![alt text](image-6.png) |
+| Activity | Is used to represent a set of actions | ![alt text](/public/image-12.png) |
+| Action | A task to be performed | ![alt text](/public/image-11.png) |
+| Control Flow | AShows the sequence of execution | ![alt text](/public/image-10.png) |
+| Initial Node | Portrays the beginning of a set of actions or activities | ![alt text](/public/image-9.png) |
+| Activity Final Node | Stop all control flows and object flows in an activity (or action) | ![alt text](/public/image-8.png) |
+| Object Node | Represent an object that is connected to a set of Object Flows | ![alt text](/public/image-7.png) |
+| Decision Node | Represent a test condition to ensure that the control flow or object flow only goes down one path | ![alt text](/public/image-6.png) |
 
 # Sequence Diagram
 
@@ -108,18 +108,18 @@ Sequence Diagrams captures:
 - the interaction that takes place in a collaboration that either realizes a use case or an operation (instance diagrams or generic diagrams)
 - high-level interactions between user of the system and the system, between the system and other systems, or between subsystems (sometimes known as system sequence diagrams)
 
-![alt text](image-13.png)
+![alt text](/public/image-13.png)
 
-| Notation Description | Description | Image |
+| Notation Description | Description | /public/Image |
 |----------------------|-------------|-------|
-| Actor | A type of role played by an entity that interacts with the subject. Actors are external to the subject and represent roles played by human users, external hardware, or other subjects. An actor does not necessarily represent a specific physical entity but merely a particular role of some entity. | ![alt text](image-14.png)|
-| Lifeline  |A lifeline represents an individual participant in the Interaction. | ![alt text](image-15.png)|
-| Activations |A thin rectangle on a lifeline that represents the period during which an element is performing an operation. The top and bottom of the rectangle are aligned with the initiation and the completion time respectively. | ![alt text](image-16.png)|
-| Call Message |  A message that defines a particular communication between Lifelines of an Interaction. Call message represents an invocation of an operation of the target lifeline. | ![alt text](image-17.png)|
-| Return Message |  A message that defines a particular communication between Lifelines of an Interaction. Return message represents the pass of information back to the caller of a corresponded former message. | ![alt text](image-18.png)|
-| Self Message |  A message that defines a particular communication between Lifelines of an Interaction. Self-message represents the invocation of a message of the same lifeline. | ![alt text](image-19.png)|
-| Recursive Message |  A message that defines a particular communication between Lifelines of an Interaction. Recursive message represents the invocation of a message of the same lifeline. Its target points to an activation on top of the activation where the message was invoked from. |![alt text](image-20.png) |
-| Create Message |  A message that defines a particular communication between Lifelines of an Interaction. Create message represents the instantiation of the target lifeline. | ![alt text](image-21.png)|
+| Actor | A type of role played by an entity that interacts with the subject. Actors are external to the subject and represent roles played by human users, external hardware, or other subjects. An actor does not necessarily represent a specific physical entity but merely a particular role of some entity. | ![alt text](/public/image-14.png)|
+| Lifeline  |A lifeline represents an individual participant in the Interaction. | ![alt text](/public/image-15.png)|
+| Activations |A thin rectangle on a lifeline that represents the period during which an element is performing an operation. The top and bottom of the rectangle are aligned with the initiation and the completion time respectively. | ![alt text](/public/image-16.png)|
+| Call Message |  A message that defines a particular communication between Lifelines of an Interaction. Call message represents an invocation of an operation of the target lifeline. | ![alt text](/public/image-17.png)|
+| Return Message |  A message that defines a particular communication between Lifelines of an Interaction. Return message represents the pass of information back to the caller of a corresponded former message. | ![alt text](/public/image-18.png)|
+| Self Message |  A message that defines a particular communication between Lifelines of an Interaction. Self-message represents the invocation of a message of the same lifeline. | ![alt text](/public/image-19.png)|
+| Recursive Message |  A message that defines a particular communication between Lifelines of an Interaction. Recursive message represents the invocation of a message of the same lifeline. Its target points to an activation on top of the activation where the message was invoked from. |![alt text](/public/image-20.png) |
+| Create Message |  A message that defines a particular communication between Lifelines of an Interaction. Create message represents the instantiation of the target lifeline. | ![alt text](/public/image-21.png)|
 
 # Communication Diagram
 
@@ -132,7 +132,7 @@ Purpose of Communication Diagram
 - Model alternative scenarios within use cases or operations that involve the collaboration of different objects and interactions
 - Support the identification of objects (hence classes), and their attributes (parameters of message) and operations (messages) that participate in use cases 
 
-![alt text](image-22.png)
+![alt text](/public/image-22.png)
 
 ## Communication Diagram vs Sequence Diagram
 ```
